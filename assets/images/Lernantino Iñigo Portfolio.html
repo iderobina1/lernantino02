@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0034)http://127.0.0.1:5500/index02.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lernantino Iñigo Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./Lernantino Iñigo Portfolio_files/style.css">
+    <link rel="stylesheet" href="./Lernantino Iñigo Portfolio_files/reset.css">
 </head>
 
 <body>
@@ -14,10 +14,10 @@
         <h1> Lernantino</h1>
         <nav>
             <ul class="hero">
-                <li> <a href="About Me"> About Me </a></li>
-                <li> <a href="Work"> Work </a></li>
-                <li> <a href="Contact Me">Contact Me </a></li>
-                <li> <a href="Resumé"> Resumé </a></li>
+                <li> <a href="http://127.0.0.1:5500/About%20Me"> About Me </a></li>
+                <li> <a href="http://127.0.0.1:5500/Work"> Work </a></li>
+                <li> <a href="http://127.0.0.1:5500/Contact%20Me">Contact Me </a></li>
+                <li> <a href="http://127.0.0.1:5500/Resum%C3%A9"> Resumé </a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,7 @@
                     Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum
                     Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem impsum
                 </p>
-                <br />
+                <br>
 
                 <p>
                     This is the first website that I build since I started, so far pretty satisfied with the result.
@@ -62,8 +62,7 @@
                 <div class="card-image w-100">
                     <div class="card-image-content0">
                         <figcaption>
-                            <h5>Surf Report</h5>
-                            <small>MERN Stack </small> 
+                            <h5>Led Wall</h5>
                         </figcaption>
                     </div>
                 </div>
@@ -73,7 +72,6 @@
                     <div class="card-image-content">
                         <figcaption>
                             <h5>Led Wall</h5>
-                            <small>Node/loT</small> 
                         </figcaption>
                     </div>
                 </div>
@@ -81,8 +79,7 @@
                 <div class="card-image">
                     <div class="card-image-content2">
                         <figcaption>
-                            <h5>Calculator</h5>
-                            <small>React/JavaScript/CSS</small> 
+                            <h5>Led Wall</h5>
                         </figcaption>
                     </div>
                 </div>
@@ -90,8 +87,7 @@
                 <div class="card-image">
                     <div class="card-image-content3">
                         <figcaption>
-                            <h5>Pastel Puzzles</h5>
-                            <small>MERN/Stack</small> 
+                            <h5>Calculator</h5>
                         </figcaption>
                     </div>
                 </div>
@@ -99,25 +95,23 @@
                 <div class="card-image">
                     <div class="card-image-content4">
                         <figcaption>
-                            <h5>Run Buddy <h5>
-                            <small>MERN/Stack</small> 
+                            <h5>Run Buddy</h5>
                         </figcaption>
                     </div>
                 </div>
 
             </div>
-
         </div>
         <div class="row">
             <div class="card-title">
                 <h3>Contact</h3>
             </div>
-            <div class="row-content">
+            <div>
                     <ul class="contact">
-                        <li> <a href="About Me"> About Me </a></li>
-                        <li> <a href="Work"> Work </a></li>
-                        <li> <a href="Contact Me">Contact Me </a></li>
-                        <li> <a href="Resumé"> Resumé </a></li>
+                        <li> <a href="http://127.0.0.1:5500/About%20Me"> About Me </a></li>
+                        <li> <a href="http://127.0.0.1:5500/Work"> Work </a></li>
+                        <li> <a href="http://127.0.0.1:5500/Contact%20Me">Contact Me </a></li>
+                        <li> <a href="http://127.0.0.1:5500/Resum%C3%A9"> Resumé </a></li>
                     </ul>
             </div>
 
@@ -125,10 +119,48 @@
 
     </main>
 
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
 
 
 
 
-</html>
+
+</body></html>

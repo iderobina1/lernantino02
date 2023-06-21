@@ -1,19 +1,221 @@
 
-body{
+:root {
+--border-blue: rgb(9, 153, 153);
+--color-primary-text: #31343d;
+}
 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  line-height: 1.5px;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--color-primary-text);
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  background-color: var(--border-blue);
+  color: var(--color-primary-text);
+  margin-left: 1 0px;
+  padding: 0% 15px 0 2%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  min-width: 600px;
+  color: var(--color-primary-text);
+  text-underline-position: auto;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.hero a {
+  color:  var(--border-blue);
+  justify-content: space-around;
+}
+
+.banner {
+  background-image: url("../assets/images/brickwall.png");
+  background-size: 100%;
+  height: 210px;
+  position: relative;
+}
+
+.banner h2 {
+  color: var(--color-primary-text);
+  background-color: var(--border-blue);
+  position: absolute;
+  font-size: x-large;
+  top: 50%;
+  right: 10%;
+  padding: 20px;
+}
+
+.containermain {
+  width: 92;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  background-color: white;
+}
+
+.row {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  margin: 30px;
+  display: flex;
+}
+
+.card-title {
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  border-right: solid thick var(--border-blue);
+  margin-right: 2%;
+  padding-right: 10px;
+  font-size: x-large;
+  text-align: right;
+}
+
+.row-content {
+  width: 80%;
+  background-color: white;
+  height: auto;
+  padding: 30px;
+  font-size: large;
+  text-align: justify;
+}
+
+.row-content2 {
+  width: 80%;
+  /*background-color: white;
+height: auto;
+padding: 30px;
+font-size: large;
+background-image: url("../assets/images/surfled.jpeg");
+background-position: 0 30%;
+border: solid thick rgb(9, 153, 153);*/
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+figcaption {
+
+  background-color: var(--border-blue);
+  position:absolute;
+  color: var(--color-primary-text);
+  top: 65%;
+  padding: 20px;  
+}
+
+h3 {
+  color: var(--border-blue);
+  margin: 0;
+}
+
+h5 {
+  color:  var(--color-primary-text);
+  margin: 0;
+}
+
+small {
+color: var(--color-primary-text);
+font-weight: 300;
 
 }
 
-header{
-
-
+.card-image {
+  display: flex;
+  width: 50%;
+  padding: 0;
+  border: solid thick var(--border-blue);
 }
 
-footer{
+.w-100 {
+  width: 100%;
+}
 
+.card-image-content {
+  width: 100%;
+  height: 295px;
+  position: relative;
+  background-image: url("../assets/images/ledscreen.png");
+  object-fit: cover;
+}
+
+.card-image-content0 {
+  width: 100%;
+  height: 295px;
+  position: relative;
+  background-image: url("../assets/images/surfled.jpeg");
+  object-fit: cover;
+  object-position: 0,0,30%;
+}
+
+.card-image-content2 {
+  width: 100%;
+  height: 295px;
+  background-image: url("../assets/images/calculator.png");
+  object-fit: cover;
+  position: relative;
+}
+
+
+.card-image-content3 {
+  width: 100%;
+  height: 2905x;
+  position: relative;
+  background-image: url("../assets/images/puzzle.png");
+  object-fit: cover;
+}
+
+
+.card-image-content4 {
+  width: 100%;
+  height: 295px;
+  position: relative;
+  background-image: url("../assets/images/runbuddy.png");
+  object-fit: cover;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 3%;
+  width: 100%;
+  color: #31343d;
+  text-underline-position: auto;
+  margin-top: 10px;
+  list-style-type: none;
+  font-size: xx-large;
+}
+.contact a {
+  color: var(--border-blue);
+  align-items: center;
+}
+
+/*footer{
 
 }
 
 @media screen { (max-width: 768px;)
 
-}
+}*/
