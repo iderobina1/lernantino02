@@ -168,6 +168,11 @@ opacity: 0.5;
   object-position: 0, 0, 30%;
 }
 
+.worklink {
+width: 100%
+}
+
+
 .card-image-content2 {
   width: 100%;
   height: 295px;
